@@ -7,19 +7,18 @@ Content-Type: application/json
 
 {
   "name": "Daniel Harrison",
-  "email": "daniel@example.com",
+  "email": "daniel2@example.com",
   "password": "123456"
 }
 
 ###
 
 # @name authenticate
-POST {{baseUrl}}/accounts
+POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 
 {
-  "name": "Daniel Harrison",
-  "email": "daniel@example.com",
+  "email": "daniel2@example.com",
   "password": "123456"
 }
